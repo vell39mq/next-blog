@@ -60,7 +60,7 @@ export default function Home() {
               </p>
             </div>
             <div className={utilStyles.cardLink}>
-              <a href="http://webcreatorbox.com/about">Github</a>
+              <a href="https://github.com/vell39mq/image_size_down">Github</a>
             </div>
           </section>
         </div>
