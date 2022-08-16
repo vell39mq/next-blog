@@ -50,7 +50,7 @@ export default function Home() {
               <a href="https://github.com/vell39mq/idobata-ham-chat">Github</a>
             </div>
           </section>
-          <section className={utilStyles.card}>
+          {/* <section className={utilStyles.card}>
             <div className={utilStyles.cardContent}>
               <h1 className={utilStyles.cardTitle}>独り言アプリ</h1>
               <p className={utilStyles.cardText}>
@@ -62,7 +62,7 @@ export default function Home() {
               <a href="https://nd-blog-project-2ef01.web.app/">Website</a>
               <a href="https://github.com/vell39mq/react-blog">Github</a>
             </div>
-          </section>
+          </section> */}
           <section className={utilStyles.card}>
             <div className={utilStyles.cardContent}>
               <h1 className={utilStyles.cardTitle}>お手製画像縮小.py</h1>
