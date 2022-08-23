@@ -21,27 +21,47 @@ export default function Home() {
           未熟者ですが、なにとぞよろしくお願いいたします。
         </p>
         <p>
-          <a href="https://qiita.com/hallotallo">Qiita</a>も始めました（まだ2つしか投稿はありません）。
+          <a href="https://qiita.com/hallotallo">Qiita</a>
+          も始めました（まだ2つしか投稿はありません）。
         </p>
         <h2>制作物</h2>
         <section className={utilStyles.card}>
-            <div className={utilStyles.cardContent}>
-              <h1 className={utilStyles.cardTitle}>モンティホール問題</h1>
-              <p className={utilStyles.cardText}>
-              仕様技術:react<br/>
+          <div className={utilStyles.cardContent}>
+            <h1 className={utilStyles.cardTitle}>ユーザー認証付Todoアプリ</h1>
+            <p className={utilStyles.cardText}>
+              仕様技術:react,firebase
+              <br />
+              内容:ユーザー別にTODOを管理できるようにしました。
+            </p>
+          </div>
+          <div className={utilStyles.cardLink}>
+            <a href="https://codesandbox.io/s/monty-hall-problem-ikt0zs?file=/src/components/Explain.js">
+              codesandbox
+            </a>
+          </div>
+        </section>
+        <section className={utilStyles.card}>
+          <div className={utilStyles.cardContent}>
+            <h1 className={utilStyles.cardTitle}>モンティホール問題</h1>
+            <p className={utilStyles.cardText}>
+              仕様技術:react
+              <br />
               内容:モンティホール問題を体験できるサービス
-              </p>
-            </div>
-            <div className={utilStyles.cardLink}>
-              <a href='https://codesandbox.io/s/monty-hall-problem-ikt0zs?file=/src/components/Explain.js'>codesandbox</a>
-            </div>
-          </section>
+            </p>
+          </div>
+          <div className={utilStyles.cardLink}>
+            <a href="https://codesandbox.io/s/monty-hall-problem-ikt0zs?file=/src/components/Explain.js">
+              codesandbox
+            </a>
+          </div>
+        </section>
         <div className={utilStyles.cardContainer}>
           <section className={utilStyles.card}>
             <div className={utilStyles.cardContent}>
               <h1 className={utilStyles.cardTitle}>Chatアプリ</h1>
               <p className={utilStyles.cardText}>
-                仕様技術:react、firebase（リアルタイムデータベース）、MUI<br/>
+                仕様技術:react、firebase（リアルタイムデータベース）、MUI
+                <br />
                 内容:シンプルなチャットアプリです。reactとfirebaseの練習のために作成しました。
               </p>
             </div>
@@ -67,8 +87,9 @@ export default function Home() {
             <div className={utilStyles.cardContent}>
               <h1 className={utilStyles.cardTitle}>お手製画像縮小.py</h1>
               <p className={utilStyles.cardText}>
-              仕様技術:python<br/>
-              内容:仕事のパソコンでフリーソフトのインストールが禁止されていたので、自分で画像一括縮小コードを書きました。
+                仕様技術:python
+                <br />
+                内容:仕事のパソコンでフリーソフトのインストールが禁止されていたので、自分で画像一括縮小コードを書きました。
               </p>
             </div>
             <div className={utilStyles.cardLink}>
@@ -76,7 +97,6 @@ export default function Home() {
             </div>
           </section>
         </div>
-
       </section>
     </Layout>
   );
