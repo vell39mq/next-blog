@@ -22,7 +22,7 @@ export default function Home() {
         </p>
         <p>
           <a href="https://qiita.com/hallotallo">Qiita</a>
-          も始めました（まだ2つしか投稿はありません）。
+          も始めました（まだ2つしか投稿はありませんが、firebase関連の投稿を増やしていく予定です）。
         </p>
         <h2>制作物</h2>
         <section className={utilStyles.card}>
